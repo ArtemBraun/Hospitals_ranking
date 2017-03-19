@@ -33,7 +33,7 @@ best <- function(state, outcome) {
         subset_data <- na.omit(subset_data)
 	subset_data <- subset_data[,c(2,target_column)]
         target_min <- min(subset_data[,2])
-        subset_data<- subset_data[subset_data2[,2] == target_min,]
+        subset_data<- subset_data[subset_data[,2] == target_min,]
         hospital_name <- sort(subset_data[,1])
         hospital_name[1]
         
