@@ -4,4 +4,4 @@
 
 #### ProgAssignment3.pdf - description of assignment subject.
 
-#### R codes developed in accordence with assignment subject. 
+#### R codes have been developed in accordence with assignment subject. 
